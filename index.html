@@ -1,34 +1,30 @@
+<link rel="stylesheet" href="vday.css">
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Envelope + Letter (Open/Close on Click)</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="envelope-wrapper">
-            <div class="envelope">
-                <div class="letter">
-                    <div class="text">
-                        <strong>Dear Bebe and Mahal ko.</strong>
-                        <p>
-                            Happy Birthday bebe ko! <3
-                            I love you so sooo much mahal hehe, We will celebrate more birthdays together <3
-                        </p>
-                    </div>
-                </div>
+<html>
+    <head>
+        <title>Happy Birthday Bebe <3</title>
+    </head>
+    <body>
+    <div class="happy_birthday_card">
+        <div class="front_card">
+            <img src="bday.png" class="front_img">
+            <div class="front_text">
+            <h3>Dear my bestfriend, my girlfriend, my wife, my palagi and my everything</h3>
+            </div>    
+        </div>
+        <div class="inside_card">
+            <img src="BEBE.jpeg" class="inside_img">
+            <div>
+                <audio controls>
+                    <source src="711.mp3" type="audio/mp3">
+                  </audio>  
             </div>
-            <div class="heart"></div>
+            <div class="inside_text">
+                <h4>Happy Birthday Bebe and Mahal ko! I really really love you so much <3 </h4>
+                <h3>Wishing you Happy Birthday filled with all the joy and warmth you bring into my life!</h3>
+            </div>
         </div>
     </div>
-    <script>
-        const envelope = document.querySelector('.envelope-wrapper');
-        envelope.addEventListener('click', () => {
-            envelope.classList.toggle('flap');
-        });
-    </script>
-</body>
+    </body>
 </html>
