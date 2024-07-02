@@ -45,7 +45,7 @@ body {
     transform-origin: left;
     margin: 40px auto;
     padding: 16px;
-    background-color: whitesmoke;
+    background-color: rgb(247, 239, 196);
     text-align: center;
     box-shadow: 0 24px 40px -8px #540264;
     width: 450px;
@@ -59,7 +59,7 @@ body {
     transform-origin: left;
     margin: 40px auto;
     padding: 16px;
-    background-color: whitesmoke;
+    background-color: rgb(247, 239, 196);
     text-align: center;
     box-shadow: 0 24px 40px -8px #46045a;
     width: 450px;
